@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="openots.png" alt="OpenOTS Logo" width="220">
+  <img src="openots.png" alt="OpenOTS Logo">
 </p>
 
 <h1 align="center">OpenOTS</h1>
