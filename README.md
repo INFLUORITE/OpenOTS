@@ -1,8 +1,16 @@
 <p align="center">
   <img src="openots.png" alt="OpenOTS Logo" width="220">
-</p><h1 align="center">OpenOTS</h1><h3 align="center">Open Object Thinking Standard</h3><p align="center">
+</p>
+
+<h1 align="center">OpenOTS</h1>
+
+<h3 align="center">Open Object Thinking Standard</h3>
+
+<p align="center">
   An Open Standard for Structuring, Isolating, and Coordinating AI-Driven Software Projects.
-</p><p align="center">
+</p>
+
+<p align="center">
   <a href="#specification-status">
     <img src="https://img.shields.io/badge/Status-Draft-orange" alt="Status: Draft">
   </a>
@@ -15,7 +23,9 @@
   <a href="https://creativecommons.org/licenses/by/4.0/">
     <img src="https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey" alt="CC BY 4.0">
   </a>
-</p>---
+</p>
+
+---
 
 Introduction
 
@@ -103,6 +113,7 @@ The Object Model
 
 Every OpenOTS Object follows a unified structural model:
 
+```text
 Object/
 │
 ├── Folder/
@@ -112,6 +123,7 @@ Object/
 ├── Mail/
 │
 └── Linker/
+```
 
 The four components define the fundamental structure of an Object.
 
@@ -241,9 +253,11 @@ Dependency is responsible for maintaining API-level relationships between Object
 
 Consider the following example:
 
+```text
 Worker_A ───── depends on ─────> Worker_B
-                                      │
-                                      └── Public API
+                                     │
+                                     └── Public API
+```
 
 Worker A consumes an API published by Worker B.
 
@@ -337,6 +351,7 @@ An OpenOTS project consists of one Manager Object and multiple Worker Objects.
 
 Example:
 
+```text
 MyProject/
 │
 ├── Manager/
@@ -365,6 +380,7 @@ MyProject/
 │
 └── Dependency/
     └── DependencyMap/
+```
 
 The Dependency directory represents a possible project-level implementation of dependency management.
 
@@ -376,6 +392,7 @@ Execution Lifecycle
 
 An OpenOTS project follows a structured development lifecycle.
 
+```mermaid
 flowchart TD
     A["User Requirements"] --> B["Manager Object"]
     B --> C["Project Architecture"]
@@ -388,6 +405,7 @@ flowchart TD
     I --> J["Linker"]
     J --> K["Dependency Registration"]
     K --> L["Project Integration"]
+```
 
 Project Management
 
@@ -433,15 +451,16 @@ Further work is required to establish formal and interoperable specifications.
 
 Planned specification areas include:
 
-Specification| Description
-Object Model| Formal Object definitions and structural requirements.
-Context Model| Context representation and loading conventions.
-Mail Protocol| Standardized task and notification document formats.
-Linker Protocol| API declaration and documentation formats.
-Dependency Protocol| Dependency registration and interface change detection.
-Execution Model| Object navigation and Single-Agent execution rules.
-Security Model| Workspace isolation and access-control requirements.
-Conformance Model| Requirements for platform compatibility and compliance.
+| Specification | Description |
+| --- | --- |
+| Object Model | Formal Object definitions and structural requirements. |
+| Context Model | Context representation and loading conventions. |
+| Mail Protocol | Standardized task and notification document formats. |
+| Linker Protocol | API declaration and documentation formats. |
+| Dependency Protocol | Dependency registration and interface change detection. |
+| Execution Model | Object navigation and Single-Agent execution rules. |
+| Security Model | Workspace isolation and access-control requirements. |
+| Conformance Model | Requirements for platform compatibility and compliance. |
 
 The long-term objective is to establish a platform-independent standard that can be implemented across different AI development environments.
 
