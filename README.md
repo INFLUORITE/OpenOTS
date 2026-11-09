@@ -17,11 +17,8 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Type-Open%20Standard-blue" alt="Open Standard">
   </a>
-  <a href="#core-architecture">
-    <img src="https://img.shields.io/badge/Architecture-Single--Agent-purple" alt="Single Agent Architecture">
-  </a>
   <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey" alt="CC BY 4.0">
+    <img src="https://img.shields.io/badge/Documentation-CC%20BY%204.0-green" alt="CC BY 4.0">
   </a>
 </p>
 
