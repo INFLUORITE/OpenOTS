@@ -1,15 +1,21 @@
-OpenOTS
-
-Open Object Thinking Standard
-
-An Open Standard for Structuring, Isolating, and Coordinating AI-Driven Software Projects.
-
-""Status" (https://img.shields.io/badge/Status-Draft-orange)" (#specification-status)
-""Type" (https://img.shields.io/badge/Type-Open%20Standard-blue)" (#)
-""Architecture" (https://img.shields.io/badge/Architecture-Single--Agent-purple)" (#core-architecture)
-""License: CC BY 4.0" (https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey.svg)" (https://creativecommons.org/licenses/by/4.0/)
-
----
+<p align="center">
+  <img src="openots.png" alt="OpenOTS Logo" width="220">
+</p><h1 align="center">OpenOTS</h1><h3 align="center">Open Object Thinking Standard</h3><p align="center">
+  An Open Standard for Structuring, Isolating, and Coordinating AI-Driven Software Projects.
+</p><p align="center">
+  <a href="#specification-status">
+    <img src="https://img.shields.io/badge/Status-Draft-orange" alt="Status: Draft">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Type-Open%20Standard-blue" alt="Open Standard">
+  </a>
+  <a href="#core-architecture">
+    <img src="https://img.shields.io/badge/Architecture-Single--Agent-purple" alt="Single Agent Architecture">
+  </a>
+  <a href="https://creativecommons.org/licenses/by/4.0/">
+    <img src="https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey" alt="CC BY 4.0">
+  </a>
+</p>---
 
 Introduction
 
