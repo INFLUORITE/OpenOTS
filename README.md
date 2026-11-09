@@ -1,5 +1,3 @@
-OpenOTS
-
 <p align="center">
   <img src="openots.png" alt="OpenOTS Logo">
 </p><h1 align="center">OpenOTS</h1><h3 align="center">Open Object Thinking Standard</h3><p align="center">
