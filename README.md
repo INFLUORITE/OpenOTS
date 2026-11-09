@@ -14,9 +14,11 @@
   <a href="#specification-status">
     <img src="https://img.shields.io/badge/Status-Draft-orange" alt="Status: Draft">
   </a>
+  
   <a href="#">
     <img src="https://img.shields.io/badge/Type-Open%20Standard-blue" alt="Open Standard">
   </a>
+  
   <a href="https://creativecommons.org/licenses/by/4.0/">
     <img src="https://img.shields.io/badge/Documentation-CC%20BY%204.0-green" alt="CC BY 4.0">
   </a>
